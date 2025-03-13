@@ -2,7 +2,6 @@ import os
 import subprocess
 import sys
 
-# Paths (Modify these as needed)
 RECMD_PATH = ".\\RECmd\\RECmd.exe"  # Path to RECmd.exe
 BATCH_FILE = ".\\RECmd\\BatchExamples\\SAM.reb"  # Path to batch file for parsing SAM
 OUTPUT_DIR = ".\\Output"  # Output directory for CSV results
@@ -45,3 +44,5 @@ if __name__ == "__main__":
 
     sam_hive_path = sys.argv[1]
     parse_sam_hive(sam_hive_path)
+
+
